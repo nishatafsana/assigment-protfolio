@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* top-bannar */
+.top-bannar {
+    width: 100%;
+    height: 120vh;
+    background-image: url('images/banner/banner1.png');
+    display: flex;
+    background-repeat: no-repeat;
+
+}
+
+.empty {
+    width: 40%;
+}
+
+.description {
+    width: 30%;
+    margin-top: 200px;
+    margin-left: 200px;
+    text-align: right;
+}
+
+.btn-primary {
+    color: antiquewhite;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 15px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: orangered;
+}
+
+.bannar-sub-tittle {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* education */
+.about {
+    margin: 50px;
+    display: flex;
+}
+
+.image {
+    width: 40%;
+}
+
+.abt-img {
+    width: 100%;
+}
+
+.tittle {
+    font-size: 40px;
+}
+
+.about-description {
+    width: 40%;
+    margin-left: 112px;
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+
+.blue {
+    color: skyblue;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.tittle {
+    font-size: 40px;
+}
+
+
+/* plans */
+.my-plan {
+
+    margin-top: 130px;
+    text-align: center;
+}
+
+.plan-tittle {
+    text-align: center;
+
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.plan-container {
+    display: flex;
+    gap: 80px;
+}
+
+.item-tittle {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.item {
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.motivation {
+    background-image: linear-gradient(to right, lightblue, darkblue);
+    height: 35vh;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 80px;
+    border-radius: 10px;
+}
+
+.motivation-content {
+    padding: 50px;
+    color: white;
+}
+
+.motivation-content h1 {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.motivation-btn {
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+}
+
+/* contact  */
+
+.subscribe {
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    height: 500px;
+}
+
+.subscribe-left {
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 150px;
+}
+
+.img-icon a {
+    padding: 3px;
+    text-decoration: none;
+}
+
+.subscribe-right {
+    width: 40%;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.subscribe-form {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
